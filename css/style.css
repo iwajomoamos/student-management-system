@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: #222;
+    color: white;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    font-size: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.welcome {
+    margin-bottom: 30px;
+}
+
+.welcome h1 {
+    margin-bottom: 8px;
+}
+
+.welcome p {
+    color: #666;
+}
+
+/* Dashboard cards */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.card .number {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.button,
+.add-button {
+    display: inline-block;
+    padding: 12px 18px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary,
+.add-button {
+    background: #222;
+    color: white;
+}
+
+.secondary {
+    background: white;
+    color: #222;
+    border: 1px solid #ddd;
+}
+
+.button:hover,
+.add-button:hover {
+    opacity: 0.85;
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Forms */
+
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h1 {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #222;
+}
+
+.form-button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    background: #222;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background: #444;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 12px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 6px;
+}
+
+.error-message {
+    margin-bottom: 20px;
+    padding: 12px;
+    background: #ffebee;
+    color: #c62828;
+    border-radius: 6px;
+}
+
+/* Students table */
+
+.table-container {
+    background: white;
+    border-radius: 10px;
+    overflow-x: auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background: #222;
+    color: white;
+}
+
+tr:hover {
+    background: #f8f8f8;
+}
+
+.empty {
+    text-align: center;
+    padding: 40px;
+    color: #777;
+}
+
+/* Search */
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.search-form input {
+    flex: 1;
+}
+
+.search-button {
+    padding: 12px 20px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background: #444;
+}
+
+.action-link {
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.edit-link {
+    color: #222;
+}
+
+.delete-link {
+    color: #c62828;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        padding: 18px 20px;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .navbar a {
+        margin-left: 10px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    .search-button {
+        width: 100%;
+    }
+
+    .container {
+        margin-top: 25px;
+    }
+}
