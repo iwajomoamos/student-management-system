@@ -67,17 +67,18 @@ student-management-system/
 
 Note: config/database.php contains local database credentials and is excluded from GitHub using .gitignore.
 
-📸 Screenshots
+## 📸 Screenshots
 
-Dashboard
+### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-Students
+### Students
 ![Students](screenshots/students.png)
-Add Student
+
+### Add Student
 ![Add Student](screenshots/add-student.png)
 
-Edit Student
+### Edit Student
 ![Edit Student](screenshots/edit-student.png)
 
 💻 How to Run Locally
