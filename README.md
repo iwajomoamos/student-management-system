@@ -70,16 +70,16 @@ Note: config/database.php contains local database credentials and is excluded fr
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/iwajomoamos/student-management-system/main/screenshots/dashboard.png)
 
 ### Students
-![Students](screenshots/students.png)
+![Students](https://raw.githubusercontent.com/iwajomoamos/student-management-system/main/screenshots/students.png)
 
 ### Add Student
-![Add Student](screenshots/add-student.png)
+![Add Student](https://raw.githubusercontent.com/iwajomoamos/student-management-system/main/screenshots/add-student.png)
 
 ### Edit Student
-![Edit Student](screenshots/edit-student.png)
+![Edit Student](https://raw.githubusercontent.com/iwajomoamos/student-management-system/main/screenshots/edit-student.png)
 
 💻 How to Run Locally
 1. Install XAMPP
