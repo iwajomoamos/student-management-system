@@ -47,7 +47,7 @@ The application allows users to manage student records through a simple, respons
 
 ## 📂 Project Structure
 
-'''text
+```text
 student-management-system/
 │
 ├── config/
@@ -65,7 +65,7 @@ student-management-system/
 └── README.md
 
 Note: config/database.php contains local database credentials and is excluded from GitHub using .gitignore.
-'''
+```
 ## 📸 Screenshots
 
 ### Dashboard
@@ -80,7 +80,7 @@ Note: config/database.php contains local database credentials and is excluded fr
 ### Edit Student
 ![Edit Student](https://raw.githubusercontent.com/iwajomoamos/student-management-system/main/screenshots/edit-student.png)
 
-'''text
+```text
 💻 How to Run Locally
 1. Install XAMPP
 
