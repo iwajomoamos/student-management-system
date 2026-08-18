@@ -47,8 +47,6 @@ The application allows users to manage student records through a simple, respons
 
 ## 📂 Project Structure
 
-
-```text
 student-management-system/
 │
 ├── config/
