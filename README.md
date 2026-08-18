@@ -46,7 +46,8 @@ The application allows users to manage student records through a simple, respons
 
 
 ## 📂 Project Structure
-'''texr
+
+'''text
 student-management-system/
 │
 ├── config/
@@ -79,7 +80,7 @@ Note: config/database.php contains local database credentials and is excluded fr
 ### Edit Student
 ![Edit Student](https://raw.githubusercontent.com/iwajomoamos/student-management-system/main/screenshots/edit-student.png)
 
-'''texr
+'''text
 💻 How to Run Locally
 1. Install XAMPP
 
