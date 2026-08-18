@@ -207,7 +207,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </button>
 
     </form>
-    <a href="students.php" class="action-link">
+    <a href="students.php" class="action-link back-link">
     ← Back to Students
 </a>
 

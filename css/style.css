@@ -6,13 +6,13 @@
 
 body {
     font-family:'Times New Roman', Times, serif;
-    background: #f4f6f8;
-    color: #222;
+    background: #0f172a;
+    color: #e2e8f0;
     line-height: 1.6;
 }
 
 .navbar {
-    background: #222;
+    background: #312e81;
     color: white;
     padding: 18px 40px;
     display: flex;
@@ -62,14 +62,14 @@ body {
 }
 
 .card {
-    background: white;
+    background: #1e293b;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card h3 {
-    color: #666;
+    color: #94a3b8;
     font-size: 15px;
     margin-bottom: 10px;
 }
@@ -92,12 +92,12 @@ body {
 
 .primary,
 .add-button {
-    background: #222;
+    background: #4f46e5;
     color: white;
 }
 
 .secondary {
-    background: white;
+    background: #4339ca;
     color: #222;
     border: 1px solid #ddd;
 }
@@ -118,7 +118,7 @@ body {
 .form-container {
     max-width: 600px;
     margin: 40px auto;
-    background: white;
+    background: #1e293b;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -137,17 +137,15 @@ label {
 
 input,
 select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
+    background: #0f172a;
+    color: #e2e8f0;
+    border: 1px solid #334155;
 }
 
 input:focus,
 select:focus {
     outline: none;
-    border-color: #222;
+    border-color: #6366f1;
 }
 
 .form-button {
@@ -185,7 +183,7 @@ select:focus {
 /* Students table */
 
 .table-container {
-    background: white;
+    background: #1e293b;
     border-radius: 10px;
     overflow-x: auto;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -200,16 +198,16 @@ th,
 td {
     padding: 15px;
     text-align: left;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #334155;
 }
 
 th {
-    background: #222;
-    color: white;
+    background: #312e81;
+    color: #e2e8f0;
 }
 
 tr:hover {
-    background: #f8f8f8;
+    background: #273449;
 }
 
 .empty {
@@ -247,9 +245,16 @@ tr:hover {
     text-decoration: none;
     margin-right: 8px;
 }
+.back-link {
+    color: #38bdf8;
+    font-weight: bold;
+}
 
+.back-link:hover {
+    color: #7dd3fc;
+}
 .edit-link {
-    color: #222;
+    color: #4f46e5;
 }
 
 .delete-link {

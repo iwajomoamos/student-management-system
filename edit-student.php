@@ -86,84 +86,22 @@ $stmt->close();
 
     <title>Edit Student</title>
 
-    <style>
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
-            padding: 40px;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-        }
-
-        h1 {
-            margin-bottom: 25px;
-        }
-
-        label {
-            display: block;
-            margin-top: 15px;
-            margin-bottom: 6px;
-            font-weight: bold;
-        }
-
-        input,
-        select {
-            width: 100%;
-            padding: 12px;
-            border: 1px solid #ccc;
-            border-radius: 6px;
-            font-size: 16px;
-        }
-
-        button {
-            margin-top: 25px;
-            width: 100%;
-            padding: 13px;
-            border: none;
-            border-radius: 6px;
-            background: #222;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background: #444;
-        }
-
-        .message {
-            margin-bottom: 20px;
-            padding: 12px;
-            background: #ffebee;
-            color: #c62828;
-            border-radius: 6px;
-        }
-
-        .back {
-            display: inline-block;
-            margin-top: 20px;
-            color: #333;
-        }
-
-    </style>
-
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <nav class="navbar">
 
-<div class="container">
+    <h2>Student Management System</h2>
+
+    <div>
+        <a href="index.php">Dashboard</a>
+        <a href="students.php">Students</a>
+    </div>
+
+</nav>
+
+<div class="form-container">
 
     <h1>Edit Student</h1>
 
@@ -259,13 +197,13 @@ $stmt->close();
         >
 
 
-        <button type="submit">
+        <button type="submit" class="form-button">
             Save Changes
         </button>
 
     </form>
 
-    <a href="students.php" class="back">
+    <a href="students.php" class="action-link back-link">
         ← Back to Students
     </a>
 
